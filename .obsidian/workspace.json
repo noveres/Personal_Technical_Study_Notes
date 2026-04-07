@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/代碼編寫規則.md",
+                "file": "課程/遊戲物理學系列.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "代碼編寫規則"
+              "title": "遊戲物理學系列"
             }
           },
           {
@@ -249,8 +249,11 @@
   },
   "active": "d790141f3c2a7286",
   "lastOpenFiles": [
-    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++如何工作運作的.md",
+    "課程/AI數學課.md",
+    "課程/遊戲物理學系列.md",
+    "課程/實習鱉屈系列.md",
     "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/代碼編寫規則.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++如何工作運作的.md",
     "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/什麼是C++.md",
     "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/循環結構.md",
     "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/選擇結構.md",
@@ -280,9 +283,6 @@
     "AI_and_CG開源計畫/CS/編程語言/Java",
     "AI_and_CG開源計畫/Maths/數學的3大分支.md",
     "AI_and_CG開源計畫/Maths/工程數學導論.md",
-    "AI_and_CG開源計畫/GameEngine/CG/CG導論.md",
-    "AI_and_CG開源計畫/Maths/EM/代數/代數是什麼.md",
-    "AI_and_CG開源計畫/GameEngine/Engine導論.md",
     "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理",
     "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向",
     "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++",
