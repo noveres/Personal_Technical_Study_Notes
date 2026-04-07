@@ -1,0 +1,297 @@
+{
+  "main": {
+    "id": "b07082f67bbd1deb",
+    "type": "split",
+    "children": [
+      {
+        "id": "f66aad7548cccd7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b43a2f46e72524f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI_and_CG開源計畫/CS/計算機科學導論/為什麼要學習計算機科學.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "為什麼要學習計算機科學"
+            }
+          },
+          {
+            "id": "832f2eb6505b427d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理/類型系統、語言執行方式、範式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "類型系統、語言執行方式、範式"
+            }
+          },
+          {
+            "id": "953357f1feb20369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI_and_CG開源計畫/CS/編程語言/C#/什麼是C sharp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "什麼是C sharp"
+            }
+          },
+          {
+            "id": "d790141f3c2a7286",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/代碼編寫規則.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "代碼編寫規則"
+            }
+          },
+          {
+            "id": "ea874c2fb78391c3",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "未命名.base",
+                "viewName": "表格"
+              },
+              "icon": "lucide-table",
+              "title": "未命名"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "da3f939249f32261",
+    "type": "split",
+    "children": [
+      {
+        "id": "8381f34dac938287",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "131fbdb2951645cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "d2b4aa3e589ddb91",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "fb0c3f8ab7a11e8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 383.5
+  },
+  "right": {
+    "id": "d127dbffb0078938",
+    "type": "split",
+    "children": [
+      {
+        "id": "468f45d690c07c81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5454b486e5170b26",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AI_and_CG開源計畫/Maths/工程數學導論.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "工程數學導論 的反向連結"
+            }
+          },
+          {
+            "id": "419f84608dbd41af",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/什么是 Static 靜態類.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "什么是 Static 靜態類 的對外連結"
+            }
+          },
+          {
+            "id": "686fdd1f0416341b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "e186ed071065561e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AI_and_CG開源計畫/Maths/工程數學導論.md"
+              },
+              "icon": "lucide-list",
+              "title": "工程數學導論 的大綱"
+            }
+          },
+          {
+            "id": "b1785cdb0edbde2a",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
+          },
+          {
+            "id": "f3a76a25d2c02b7d",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "cloud",
+              "title": "QuickShare"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:建立新的 base": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "d790141f3c2a7286",
+  "lastOpenFiles": [
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++如何工作運作的.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/代碼編寫規則.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/什麼是C++.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/循環結構.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/選擇結構.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/順序結構.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構/程序流程結構.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理/類型系統、語言執行方式、範式.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理/抽象語法樹 (Abstract Syntax Tree, AST).md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/什么是 Static 靜態類.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/物件導向四大特性.md",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++的優勢.md",
+    "AI_and_CG開源計畫/CS/計算機科學導論/計算機網路.md",
+    "AI_and_CG開源計畫/CS/計算機科學導論/計算機前身.md",
+    "AI_and_CG開源計畫/CS/計算機科學導論/為什麼要學習計算機科學.md",
+    "AI_and_CG開源計畫/AI/AI導論.md",
+    "AI_and_CG開源計畫/CS/編程語言/C#/什麼是C sharp.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理/代碼組成.md",
+    "未命名 1.base",
+    "AI_and_CG開源計畫/CS/編程語言/操作系統/操作系統.md",
+    "Pasted image 20260118233908.png",
+    "AI_and_CG開源計畫/計畫簡介.md",
+    "未命名.canvas",
+    "未命名.base",
+    "AI_and_CG開源計畫/CS/軟件工程.md",
+    "Pasted image 20241025150856.png",
+    "Pasted image 20241023110921.png",
+    "Pasted image 20241015180505.png",
+    "AI_and_CG開源計畫/CS/編程語言/Java",
+    "AI_and_CG開源計畫/Maths/數學的3大分支.md",
+    "AI_and_CG開源計畫/Maths/工程數學導論.md",
+    "AI_and_CG開源計畫/GameEngine/CG/CG導論.md",
+    "AI_and_CG開源計畫/Maths/EM/代數/代數是什麼.md",
+    "AI_and_CG開源計畫/GameEngine/Engine導論.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++",
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/C++流程結構",
+    "AI_and_CG開源計畫/Maths/EM/代數",
+    "AI_and_CG開源計畫/CS/軟件工程",
+    "課程",
+    "Pasted image 20241029151651.png",
+    "Pasted image 20241023110947.png",
+    "Pasted image 20241020092458.png"
+  ]
+}
