@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/完整的 http 請求_By_REST 原則.md",
+                "file": "AI_and_CG開源計畫/DevOps/未命名.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "完整的 http 請求_By_REST 原則"
+              "title": "未命名"
             }
           }
         ],
@@ -207,12 +207,22 @@
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
               "state": {},
+              "icon": "lucide-ghost",
+              "title": "QUICKSHARE_SIDE_VIEW"
+            }
+          },
+          {
+            "id": "628e9ba40e30a6b2",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
               "icon": "cloud",
               "title": "QuickShare"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -236,8 +246,26 @@
   },
   "active": "2c6cfaaf943e17be",
   "lastOpenFiles": [
+    "Pasted image 20260428172301.png",
+    "AI_and_CG開源計畫/DevOps/AWS/AWS EC2 遠端連線操作手冊.md",
+    "AI_and_CG開源計畫/DevOps/未命名.md",
     "AI_and_CG開源計畫/DevOps/AWS/AWS EC2 (Linux) 上安裝 LAMP（Linux, Apache, MySQL_MariaDB, PHP）.md",
     "AI_and_CG開源計畫/DevOps/AWS/AWS EC2 Linux 伺服器架設筆記.md",
+    "AI_and_CG開源計畫/CS/計算機網路/DNS的工作方式.md",
+    "AI_and_CG開源計畫/CS/計算機網路/計算機網路.md",
+    "AI_and_CG開源計畫/DevOps/Docker/為甚麼需要 Docke 容器.md",
+    "AI_and_CG開源計畫/CS/計算機網路",
+    "Pasted image 20260427143531.png",
+    "AI_and_CG開源計畫/DevOps/Docker/Docke 原理與使用.md",
+    "未命名 1.canvas",
+    "未命名 1.base",
+    "未命名.base",
+    "未命名.canvas",
+    "Pasted image 20260427142631.png",
+    "AI_and_CG開源計畫/DevOps/Docker",
+    "Pasted image 20260424100748.png",
+    "Pasted image 20241015180505.png",
+    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/完整的 http 請求_By_REST 原則.md",
     "Pasted image 20260423081938.png",
     "Pasted image 20260423081658.png",
     "Pasted image 20260423081102.png",
@@ -245,20 +273,14 @@
     "Pasted image 20260423080703.png",
     "Pasted image 20260423080116.png",
     "AI_and_CG開源計畫/DevOps/AWS",
-    "Pasted image 20260423075926.png",
-    "Pasted image 20260423075846.png",
-    "Pasted image 20260423075440.png",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/RESTful API 是甚麼.md",
     "AI_and_CG開源計畫/DevOps.md",
     "AI_and_CG開源計畫/DevOps",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/JWT ( JSON Web Tokens ).md",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/JSON 是什麼.md",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/API 是什麼.md",
-    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/完整的 http 請求_By_REST 原則.md",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/WEB API 是甚麼.md",
-    "Pasted image 20260419110342.png",
     "AI_and_CG開源計畫/CS/計算機科學導論/計算機前身.md",
-    "AI_and_CG開源計畫/CS/計算機科學導論/計算機網路.md",
     "AI_and_CG開源計畫/CS/計算機科學導論/為什麼要學習計算機科學.md",
     "AI_and_CG開源計畫/CS/軟件工程/通用概念/API",
     "AI_and_CG開源計畫/CS/編程語言/C#/什麼是C sharp.md",
@@ -266,23 +288,11 @@
     "AI_and_CG開源計畫/CS/軟件工程/通用概念",
     "AI_and_CG開源計畫/CS/軟件工程.md",
     "AI_and_CG開源計畫/CS/軟件工程",
-    "未命名.base",
-    "未命名 3.base",
-    "未命名 1.canvas",
-    "未命名 2.base",
-    "AI_and_CG開源計畫/CS/軟件工程/Web_System_Design/Frontend",
     "AI_and_CG開源計畫/Web_System_Design/未命名.md",
     "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/物件導向四大特性.md",
     "個人專案/個人接案者報價平台/資訊對其.md",
     "個人專案/個人接案者報價平台/後端/系統架構.md",
     "AI_and_CG開源計畫/CS/資料庫/SQL語法/ORDER BY.md",
-    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++的優勢.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/SQL 常用函數總整理.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/CRUD.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/WHERE.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/SELECT.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/LIMIT + OFFSET.md",
-    "AI_and_CG開源計畫/CS/資料庫/SQL語法/JOIN.md",
-    "未命名.canvas"
+    "AI_and_CG開源計畫/CS/編程語言/C_C++/C++/什麼是C++/C++的優勢.md"
   ]
 }
