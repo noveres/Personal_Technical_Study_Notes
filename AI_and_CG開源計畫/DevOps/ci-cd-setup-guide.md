@@ -8,7 +8,7 @@
 git push (main)
      ↓
 GitHub Actions
-   ├── (1) OIDC 跟 AWS 拿 short-lived token (沒長期 access key 風險)
+   ├── (1) OIDC 跟 AWS 拿 short-lived token
    ├── (2) docker buildx 建鏡像
    └── (3) push 到 ECR (private registry)
      ↓
@@ -371,7 +371,7 @@ git push origin main
 
 ## 故障排查
 
-### ❌ `Error: Could not assume role`（OIDC 階段）
+###  `Error: Could not assume role`（OIDC 階段）
 
 | 可能原因 | 處理 |
 |---------|------|
@@ -379,7 +379,7 @@ git push origin main
 | 沒指定 branch（`refs/heads/main`） | 確認 condition 的 sub claim |
 | OIDC provider thumbprint 過期 | 從 [GitHub Actions OIDC docs](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) 拿最新值 |
 
-### ❌ `pull access denied`（EC2 拉鏡像時）
+###  `pull access denied`（EC2 拉鏡像時）
 
 | 可能原因 | 處理 |
 |---------|------|
@@ -387,7 +387,7 @@ git push origin main
 | EC2 沒附 IAM role | 確認 step 4-2 |
 | ECR 跟 EC2 不同 region | docker login 跟 compose 都用同一 region |
 
-### ❌ SSH 步驟卡住或拒絕連線
+### SSH 步驟卡住或拒絕連線
 
 | 可能原因 | 處理 |
 |---------|------|
@@ -395,7 +395,7 @@ git push origin main
 | EC2 Security Group 沒開 22 給 GitHub | GitHub Actions runner 是動態 IP，22 port 要對 0.0.0.0/0 開放（或用 SSM 替代 SSH） |
 | EC2_HOST 是私網 IP | 改用公網 IP |
 
-### ❌ `docker compose pull` 一直拉不到
+###  `docker compose pull` 一直拉不到
 
 ```bash
 # 在 EC2 手動測
@@ -410,7 +410,7 @@ docker compose pull
 
 ---
 
-## 安全加固（可選但建議）
+## 安全加固（可選）
 
 ### 1. 加強 trust policy 限制
 
@@ -455,7 +455,7 @@ docker compose pull
 
 ---
 
-## 整理：你會碰到的所有檔案
+## 整理：會碰到的所有檔案
 
 | 檔案 | 在哪 | 用途 |
 |------|------|------|
