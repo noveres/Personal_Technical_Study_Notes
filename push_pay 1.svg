@@ -1,0 +1,291 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 231" width="630" height="231">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-18-430h680v700h-680zm38 17h90.94c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-90.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm30.96 34h63.08c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-63.08c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.96 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm124.25-17.5h137.73c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-137.73c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm19.34 17.5h99.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-99.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm160.59-17.5h97.45c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-97.45c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.88 17.5h110.4c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-110.4c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm156.63-17.5h118.94c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-118.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm23.41 17.5h72.44c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-72.44c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-274.52 49.5h150.36c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-150.36c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-226.82 43h165.69c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-165.69c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm49.33 36h46.92c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-46.92c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-9.33 17.5h64c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-64c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm169.91-17.5h44.93c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-44.93c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-10.3 17.5h64.78c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-64.78c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-115.49 54.5h135.99c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-135.99c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm5.88 17.5h124c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-124c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm253.73-17.5h106.77c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-106.77c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm11.99 17.5h81.56c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-81.56c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm147.91-17.5h87.55c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-87.55c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm1.36 17.5h84.02c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-84.02c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-100.79 50.5h125.6c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-125.6c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-5.97 17.5h137.54c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-137.54c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-398.23 50.5h109.95c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-109.95c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm22 34h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4 17.5h52c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-52c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm118.28-17.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.47 17.5h78.46c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-78.46c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm136.47-17.5h106.36c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-106.36c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm18.72 17.5h68.12c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-68.12c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm135.8-17.5h86.62c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-86.62c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4.06 17.5h79.45c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-79.45c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-303.52 70.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.48 17.5h78.03c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-78.03c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm159.24-17.5h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-8 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm149.18-17.5h67.64c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-67.64c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-4.18 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-169.86-54.5h115.92c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-115.92c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-10.85 127h68.24c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-68.24c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-102.77 17.5h273.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-273.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="m-18-430h680v700h-680zm38 17h90.94c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-90.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm30.96 34h63.08c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-63.08c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.96 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm124.25-17.5h137.73c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-137.73c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm19.34 17.5h99.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-99.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm160.59-17.5h97.45c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-97.45c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.88 17.5h110.4c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-110.4c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm156.63-17.5h118.94c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-118.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm23.41 17.5h72.44c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-72.44c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-274.52 49.5h150.36c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-150.36c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-226.82 43h165.69c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-165.69c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm49.33 36h46.92c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-46.92c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-9.33 17.5h64c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-64c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm169.91-17.5h44.93c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-44.93c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-10.3 17.5h64.78c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-64.78c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-115.49 54.5h135.99c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-135.99c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm5.88 17.5h124c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-124c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm253.73-17.5h106.77c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-106.77c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm11.99 17.5h81.56c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-81.56c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm147.91-17.5h87.55c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-87.55c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm1.36 17.5h84.02c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-84.02c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-100.79 50.5h125.6c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-125.6c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-5.97 17.5h137.54c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-137.54c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-398.23 50.5h109.95c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-109.95c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm22 34h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4 17.5h52c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-52c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm118.28-17.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.47 17.5h78.46c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-78.46c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm136.47-17.5h106.36c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-106.36c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm18.72 17.5h68.12c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-68.12c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm135.8-17.5h86.62c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-86.62c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4.06 17.5h79.45c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-79.45c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-303.52 70.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.48 17.5h78.03c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-78.03c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm159.24-17.5h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-8 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm149.18-17.5h67.64c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-67.64c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-4.18 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-169.86-54.5h115.92c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-115.92c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-10.85 127h68.24c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-68.24c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-102.77 17.5h273.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-273.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp3">
+			<path d="m-18-430h680v700h-680zm38 17h90.94c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-90.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm30.96 34h63.08c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-63.08c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.96 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm124.25-17.5h137.73c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-137.73c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm19.34 17.5h99.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-99.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm160.59-17.5h97.45c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-97.45c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.88 17.5h110.4c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-110.4c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm156.63-17.5h118.94c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-118.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm23.41 17.5h72.44c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-72.44c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-274.52 49.5h150.36c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-150.36c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-226.82 43h165.69c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-165.69c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm49.33 36h46.92c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-46.92c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-9.33 17.5h64c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-64c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm169.91-17.5h44.93c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-44.93c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-10.3 17.5h64.78c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-64.78c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-115.49 54.5h135.99c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-135.99c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm5.88 17.5h124c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-124c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm253.73-17.5h106.77c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-106.77c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm11.99 17.5h81.56c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-81.56c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm147.91-17.5h87.55c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-87.55c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm1.36 17.5h84.02c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-84.02c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-100.79 50.5h125.6c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-125.6c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-5.97 17.5h137.54c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-137.54c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-398.23 50.5h109.95c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-109.95c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm22 34h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4 17.5h52c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-52c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm118.28-17.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.47 17.5h78.46c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-78.46c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm136.47-17.5h106.36c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-106.36c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm18.72 17.5h68.12c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-68.12c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm135.8-17.5h86.62c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-86.62c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4.06 17.5h79.45c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-79.45c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-303.52 70.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.48 17.5h78.03c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-78.03c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm159.24-17.5h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-8 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm149.18-17.5h67.64c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-67.64c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-4.18 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-169.86-54.5h115.92c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-115.92c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-10.85 127h68.24c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-68.24c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-102.77 17.5h273.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-273.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2z"/>
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp4">
+			<path d="m-18-430h680v700h-680zm38 17h90.94c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-90.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm30.96 34h63.08c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-63.08c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.96 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm124.25-17.5h137.73c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-137.73c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm19.34 17.5h99.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-99.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm160.59-17.5h97.45c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-97.45c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-6.88 17.5h110.4c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-110.4c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm156.63-17.5h118.94c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-118.94c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm23.41 17.5h72.44c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-72.44c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-274.52 49.5h150.36c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-150.36c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-226.82 43h165.69c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-165.69c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm49.33 36h46.92c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-46.92c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-9.33 17.5h64c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-64c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm169.91-17.5h44.93c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-44.93c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-10.3 17.5h64.78c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-64.78c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-115.49 54.5h135.99c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-135.99c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm5.88 17.5h124c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-124c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm253.73-17.5h106.77c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-106.77c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm11.99 17.5h81.56c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-81.56c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm147.91-17.5h87.55c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-87.55c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm1.36 17.5h84.02c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-84.02c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-100.79 50.5h125.6c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-125.6c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-5.97 17.5h137.54c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-137.54c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm-398.23 50.5h109.95c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-109.95c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm22 34h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4 17.5h52c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-52c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm118.28-17.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.47 17.5h78.46c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-78.46c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm136.47-17.5h106.36c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-106.36c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm18.72 17.5h68.12c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-68.12c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm135.8-17.5h86.62c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-86.62c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm4.06 17.5h79.45c1.11 0 2 0.9 2 2v15c0 1.1-0.89 2-2 2h-79.45c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-303.52 70.5h96.67c1.11 0 2 0.9 2 2v18c0 1.1-0.89 2-2 2h-96.67c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm8.48 17.5h78.03c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-78.03c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2zm159.24-17.5h60c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-60c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-8 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm149.18-17.5h67.64c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-67.64c-1.1 0-2-0.9-2-2v-18c0-1.1 0.9-2 2-2zm-4.18 17.5h76c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-76c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-169.86-54.5h115.92c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-115.92c-1.1 0-2-0.9-2-2v-15c0-1.1 0.9-2 2-2zm-10.85 127h68.24c1.1 0 2 0.9 2 2v18c0 1.1-0.9 2-2 2h-68.24c-1.11 0-2-0.9-2-2v-18c0-1.1 0.89-2 2-2zm-102.77 17.5h273.8c1.1 0 2 0.9 2 2v15c0 1.1-0.9 2-2 2h-273.8c-1.11 0-2-0.9-2-2v-15c0-1.1 0.89-2 2-2z"/>
+		</clipPath>
+		<image  width="120" height="22" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAWCAMAAAA8RKjKAAAAAXNSR0IB2cksfwAAAeZQTFRFAAAAYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGYzgGh8dOmwAAAKJ0Uk5TAAwXRUsxEQY6gsnX6/Dt5+LNwLCWiYiBend5e39pRCUHH2BsbWFjUkcZDQEJ/P/+/fv6+fjv6dbe39nd2tzY1dvMw7quqpeAdmVGPV2r8/SRUy4TPL/q6OTQxbmtp5uamJWZa0kiGnH17mYIbz7TxEiG9sIzqPHOu+BQFbiP1DlO5lHH9zSd49G3fH1UFB28tuXShaXsyMEKBA91pq+xi34pOLh7SQAAAgNJREFUeJxjZMAOGIEARPzEIU8xYMQuzMGIBfz/w8wMpB5QzWJ2qedScNOvAgV0brApI1wEtPEfAwMLwx+mf6yMsJC4aPCXhfEf87+//9kZ/jEznrSAG7CNjahQApnvw7jf6fEfZibZg5pcvECta0MYb5LpCVZpdsYdnowvJEFOeHHOm3GL7/9/23yeyfz/+0Jqi9cOX0bG2TDFaYwfryFpZmQxYXz24D85FmO44z/jfxAB4vyHOIyRSZWFf/t9ECeb8fV1KthCArhnwb7tPwNjLuMB+toL9L0T4wQGxkLGPfS2mIHBlbGHsXQn/e1l8Fj6lNHh3QBYzODay2j7cSAs9vzLWLFtICz2/s1YuvvfAFjMZ8FY9WfHAFjsCqwMqjdTo5giDViJNjMyhGhtoLvFnJYTGBm0QybK0dleLiPGqaASvIFxLT2ttTpvvP86pCHQxLjuL30sZQrZZMm32nkqtAXCXse4i0ABxkhhCmQJ2hQIbie8kCyGGAgR7/v377IOAwMbw1sG4WNssqdNTwspC7I/nl5yUPLezabjVhVB5k31J57+ZP0NbHVcK2K7eE9hZxPLAsebpuv+/kd2FiMDM4PM84Qq3X/M5xgMmCNKen/8YmDYc6H0uJ4k46SrSD6hwBczGVsD7/gzPHrEzKAixsh4i+UEo6ztJf2VHAGbCCcaAHSYmO7xFCYjAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 14px;fill: #faf9f5;font-family: "Anthropic  Sans" } 
+		.s1 { fill: #085041;stroke: #5dcaa5;stroke-width: .5 } 
+		.t2 { font-size: 14px;fill: #9fe1cb;font-family: "Anthropic  Sans" } 
+		.t3 { font-size: 12px;fill: #5dcaa5;font-family: "Anthropic  Sans" } 
+		.s4 { fill: none;stroke: #9c9a92;stroke-width: 1.5 } 
+		.s5 { fill: #3c3489;stroke: #afa9ec;stroke-width: .5 } 
+		.t6 { font-size: 14px;fill: #cecbf6;font-family: "Anthropic  Sans" } 
+		.t7 { font-size: 12px;fill: #afa9ec;font-family: "Anthropic  Sans" } 
+		.s8 { fill: #633806;stroke: #ef9f27;stroke-width: .5 } 
+		.t9 { font-size: 14px;fill: #fac775;font-family: "Anthropic  Sans" } 
+		.t10 { font-size: 12px;fill: #ef9f27;font-family: "Anthropic  Sans" } 
+		.s11 { fill: #0c447c;stroke: #85b7eb;stroke-width: .5 } 
+		.t12 { font-size: 14px;fill: #b5d4f4;font-family: "Anthropic  Sans" } 
+		.t13 { font-size: 12px;fill: #85b7eb;font-family: "Anthropic  Sans" } 
+		.s14 { opacity: .5;fill: none;stroke: #9c9a92;stroke-dasharray: 4,3 } 
+		.t15 { font-size: 12px;fill: #c2c0b6;font-family: "Anthropic  Sans" } 
+		.s16 { opacity: .3;fill: #000000;stroke: #dedcd1;stroke-width: .5;stroke-dasharray: 4,3 } 
+		.s17 { fill: #712b13;stroke: #f0997b;stroke-width: .5 } 
+		.t18 { font-size: 14px;fill: #f5c4b3;font-family: "Anthropic  Sans" } 
+		.t19 { font-size: 12px;fill: #f0997b;font-family: "Anthropic  Sans" } 
+		.s20 { fill: #444441;stroke: #b4b2a9;stroke-width: .5 } 
+		.t21 { font-size: 14px;fill: #d3d1c7;font-family: "Anthropic  Sans" } 
+		.t22 { font-size: 12px;fill: #b4b2a9;font-family: "Anthropic  Sans" } 
+		.s23 { opacity: .35;fill: #000000;stroke: #9c9a92;stroke-width: .8;stroke-dasharray: 3,3 } 
+	</style>
+	<text id="① 拍照出入庫" transform="translate(22,-402)">
+		<tspan x="0" y="0" class="t0">① 拍照出入庫
+</tspan>
+	</text>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m30-386h104c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-104c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="LINE Bot" transform="translate(82,-368)">
+			<tspan x="-29.7" y="0" class="t2">LINE Bot
+</tspan>
+		</text>
+		<text id="用戶拍照傳送" transform="translate(82,-352)">
+			<tspan x="-36" y="0" class="t3">用戶拍照傳送
+</tspan>
+		</text>
+	</g>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<path fill-rule="evenodd" class="s4" d="m142-364h28"/>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s5" d="m180-386h114c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-114c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="WebhookController" transform="translate(237,-368)">
+			<tspan x="-66.7" y="0" class="t6">WebhookController
+</tspan>
+		</text>
+		<text id="接收 image event" transform="translate(237,-352)">
+			<tspan x="-51.6" y="0" class="t7">接收 image event
+</tspan>
+		</text>
+	</g>
+	<g id="Clip-Path" clip-path="url(#cp2)">
+		<path fill-rule="evenodd" class="s4" d="m302-364h28"/>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s8" d="m340-386h114c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-114c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="VisionService" transform="translate(397,-368)">
+			<tspan x="-46.8" y="0" class="t9">VisionService
+</tspan>
+		</text>
+		<text id="Claude AI 圖片辨識" transform="translate(397,-352)">
+			<tspan x="-54.5" y="0" class="t10">Claude AI 圖片辨識
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m462-364h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s11" d="m500-386h114c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-114c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="InventoryService" transform="translate(557,-368)">
+			<tspan x="-59.3" y="0" class="t12">InventoryService
+</tspan>
+		</text>
+		<text id="異動庫存 DB" transform="translate(557,-352)">
+			<tspan x="-34.6" y="0" class="t13">異動庫存 DB
+</tspan>
+		</text>
+	</g>
+	<g id="Clip-Path" clip-path="url(#cp3)">
+		<path class="s14" d="m557-342v30h-475v-28"/>
+	</g>
+	<text id="Reply: 辨識結果 + 庫存確認" transform="translate(322,-298)">
+		<tspan x="-77" y="0" class="t15">Reply: 辨識結果 + 庫存確認
+</tspan>
+	</text>
+	<path fill-rule="evenodd" class="s16" d="m22-280h600"/>
+	<text id="② 滯銷推播（Cron Job）" transform="translate(22,-258)">
+		<tspan x="0" y="0" class="t0">② 滯銷推播（Cron Job）
+</tspan>
+	</text>
+	<g>
+		<path fill-rule="evenodd" class="s17" d="m30-240h124c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-124c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="條件 A" transform="translate(92,-222)">
+			<tspan x="-21" y="0" class="t18">條件 A
+</tspan>
+		</text>
+		<text id="N 天未出貨" transform="translate(92,-206)">
+			<tspan x="-30.4" y="0" class="t19">N 天未出貨
+</tspan>
+		</text>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s17" d="m190-240h124c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-124c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="條件 B" transform="translate(252,-222)">
+			<tspan x="-21" y="0" class="t18">條件 B
+</tspan>
+		</text>
+		<text id="庫存 &gt; 閾值" transform="translate(252,-206)">
+			<tspan x="-32.8" y="0" class="t19">庫存 &gt; 閾值
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m92-196v26"/>
+	<path fill-rule="evenodd" class="s4" d="m252-196v26"/>
+	<g>
+		<path fill-rule="evenodd" class="s8" d="m30-168h284c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-284c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="SlowStockDetector" transform="translate(172,-150)">
+			<tspan x="-66.3" y="0" class="t9">SlowStockDetector
+</tspan>
+		</text>
+		<text id="查出符合條件商品列表" transform="translate(172,-134)">
+			<tspan x="-60" y="0" class="t10">查出符合條件商品列表
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m322-146h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s5" d="m360-168h114c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-114c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="GroupResolver" transform="translate(417,-150)">
+			<tspan x="-51.4" y="0" class="t6">GroupResolver
+</tspan>
+		</text>
+		<text id="VIP / 區域分組" transform="translate(417,-134)">
+			<tspan x="-39.3" y="0" class="t7">VIP / 區域分組
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m482-146h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s11" d="m520-168h94c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-94c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="PushService" transform="translate(567,-150)">
+			<tspan x="-42.5" y="0" class="t12">PushService
+</tspan>
+		</text>
+		<text id="Multicast 推播" transform="translate(567,-134)">
+			<tspan x="-41" y="0" class="t13">Multicast 推播
+</tspan>
+		</text>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m360-100h254c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-254c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="Flex Message 模板" transform="translate(487,-82)">
+			<tspan x="-63.4" y="0" class="t2">Flex Message 模板
+</tspan>
+		</text>
+		<text id="商品圖 + 庫存 + 優惠按鈕" transform="translate(487,-66)">
+			<tspan x="-71.7" y="0" class="t3">商品圖 + 庫存 + 優惠按鈕
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m567-124l-80 22"/>
+	<path fill-rule="evenodd" class="s16" d="m22-36h600"/>
+	<text id="③ LINE Pay 金流" transform="translate(22,-14)">
+		<tspan x="0" y="0" class="t0">③ LINE Pay 金流
+</tspan>
+	</text>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m30 2h84c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-84c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="用戶點擊" transform="translate(72,20)">
+			<tspan x="-28" y="0" class="t2">用戶點擊
+</tspan>
+		</text>
+		<text id="付款按鈕" transform="translate(72,36)">
+			<tspan x="-24" y="0" class="t3">付款按鈕
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m122 24h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s5" d="m160 2h104c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-104c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="PayController" transform="translate(212,20)">
+			<tspan x="-46.8" y="0" class="t6">PayController
+</tspan>
+		</text>
+		<text id="/pay/request" transform="translate(212,36)">
+			<tspan x="-37.9" y="0" class="t7">/pay/request
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m272 24h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s8" d="m310 2h104c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-104c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="LinePayService" transform="translate(362,20)">
+			<tspan x="-52.8" y="0" class="t9">LinePayService
+</tspan>
+		</text>
+		<text id="HMAC 簽名" transform="translate(362,36)">
+			<tspan x="-31.8" y="0" class="t10">HMAC 簽名
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m422 24h28"/>
+	<g>
+		<path fill-rule="evenodd" class="s11" d="m460 2h94c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-94c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="LINE Pay API" transform="translate(507,20)">
+			<tspan x="-43.5" y="0" class="t12">LINE Pay API
+</tspan>
+		</text>
+		<text id="取得付款 URL" transform="translate(507,36)">
+			<tspan x="-37.8" y="0" class="t13">取得付款 URL
+</tspan>
+		</text>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s20" d="m160 90h104c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-104c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="PayController" transform="translate(212,108)">
+			<tspan x="-46.8" y="0" class="t21">PayController
+</tspan>
+		</text>
+		<text id="/pay/confirm" transform="translate(212,124)">
+			<tspan x="-37.8" y="0" class="t22">/pay/confirm
+</tspan>
+		</text>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s17" d="m310 90h104c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-104c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="確認扣款" transform="translate(362,108)">
+			<tspan x="-28" y="0" class="t18">確認扣款
+</tspan>
+		</text>
+		<text id="更新訂單狀態" transform="translate(362,124)">
+			<tspan x="-36" y="0" class="t19">更新訂單狀態
+</tspan>
+		</text>
+	</g>
+	<g>
+		<path fill-rule="evenodd" class="s1" d="m460 90h94c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-94c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="Push 通知" transform="translate(507,108)">
+			<tspan x="-32.8" y="0" class="t2">Push 通知
+</tspan>
+		</text>
+		<text id="付款成功訊息" transform="translate(507,124)">
+			<tspan x="-36" y="0" class="t3">付款成功訊息
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m272 112h28"/>
+	<path fill-rule="evenodd" class="s4" d="m422 112h28"/>
+	<path class="s14" d="m507 46v34h-295v8"/>
+	<text id="confirmUrl callback" transform="translate(357,74)">
+		<tspan x="-57.8" y="0" class="t15">confirmUrl callback
+</tspan>
+	</text>
+	<g>
+		<path fill-rule="evenodd" class="s20" d="m30 180h584c4.42 0 8 3.58 8 8v28c0 4.42-3.58 8-8 8h-584c-4.42 0-8-3.58-8-8v-28c0-4.42 3.58-8 8-8z"/>
+		<text id="Database" transform="translate(322,198)">
+			<tspan x="-33.4" y="0" class="t21">Database
+</tspan>
+		</text>
+		<text id="products / inventory_logs / orders / user_groups" transform="translate(322,214)">
+			<tspan x="-143.3" y="0" class="t22">products / inventory_logs / orders / user_groups
+</tspan>
+		</text>
+	</g>
+	<path fill-rule="evenodd" class="s4" d="m557 158l-125 20"/>
+	<path fill-rule="evenodd" class="s4" d="m172 134l10 44"/>
+	<g id="Clip-Path" clip-path="url(#cp4)">
+		<path fill-rule="evenodd" class="s23" d="m557-124l-5 302"/>
+	</g>
+	<use id="Layer 1" href="#img1" x="339" y="-367"/>
+</svg>
