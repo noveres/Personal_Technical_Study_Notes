@@ -1,4 +1,4 @@
-，**靜態類別**就是一種**無法實例化**的特殊類別。
+**靜態類別**就是一種**無法實例化**的特殊類別。
 
 ### 1. 什麼是「無法實例化」 (Cannot be Instantiated)?
 
@@ -37,16 +37,16 @@
 
 在 JavaScript/TypeScript 或 C# 中，`Math` 就是最典型的靜態類別概念（雖然 JS 中它是個內建物件，但行為邏輯一樣）。
 
-- ❌ **錯誤用法（試圖實例化）**：
+- **錯誤用法**：
     
-    你從來不需要造一個「數學物件」來算圓周率。
+    我們不需要造一個「數學物件」來算圓周率。
     
     ``` TypeScript
     // Error: Math is not a constructor
     const myMath = new Math(); 
     ```
     
-- ✅ **正確用法（直接使用）**：
+-  **正確用法：
     
     直接呼叫它提供的工具。
   ``` TypeScript
@@ -93,10 +93,10 @@ class StaticLogger {
     }
 }
 
-// ❌ 報錯！無法實例化
+//  報錯！無法實例化
 // const log = new StaticLogger(); 
 
-// ✅ 直接使用
+//  直接使用
 StaticLogger.log("Server Down!");
 ```
 
