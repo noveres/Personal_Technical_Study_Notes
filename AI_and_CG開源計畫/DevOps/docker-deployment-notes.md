@@ -61,7 +61,7 @@ Docker build 會把整個 build context（專案資料夾）打包送給 daemon�
 
 ---
 
-## 3. Docker 網路（**最容易踩坑**）
+## 3. Docker 網路
 
 ### `127.0.0.1` 是相對的
 
@@ -544,15 +544,3 @@ admin.hohosselect.com    admin.openit.com.tw
 - [`deploy/traefik/dynamic.yml`](../deploy/traefik/dynamic.yml) — middlewares
 - `/home/saratony/private/bakery/config.json` (EC2) — bakery DB 設定
 - `/home/saratony/private/openit/config.json` (EC2) — openit DB 設定
-
----
-
-## 16. 還可以再學的方向
-
-- **Multi-stage build：** 用建置階段裝 composer install，runtime 階段只留 vendor，鏡像更小
-- **GitHub Actions / GitLab CI：** 自動化 build + push + deploy
-- **AWS ECR：** 取代手動 docker save/scp，鏡像存 AWS 私有 registry
-- **Docker Swarm / Kubernetes：** 多節點調度（如果規模成長）
-- **Traefik DNS-01 challenge：** 用 Cloudflare DNS 驗證，不必開 80 port
-- **Prometheus + Grafana：** Traefik metrics 監控
-- **資料庫：** MySQL 改用 RDS（託管服務）、加從庫做讀寫分離

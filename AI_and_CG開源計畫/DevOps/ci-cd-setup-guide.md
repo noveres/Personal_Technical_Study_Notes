@@ -1,6 +1,6 @@
 # AWS ECR + GitHub Actions CI/CD 設定指南
 
-部署 SOLE bakery / openit 到 EC2 的完整 CI/CD 設定。對應 [.github/workflows/deploy.yml](../.github/workflows/deploy.yml)。
+部署到 EC2 的 CI/CD 設定。對應 [.github/workflows/deploy.yml](../.github/workflows/deploy.yml)。
 
 ## 整體架構
 
@@ -21,41 +21,39 @@ GitHub Actions (deploy job)
 
 ## 設定步驟總覽
 
-| # | 在哪 | 做什麼 | 一次性？ |
-|---|------|--------|---------|
-| 1 | AWS ECR | 建 `bakery`、`openit` repository | ✅ 一次 |
-| 2 | AWS IAM | 建 GitHub OIDC identity provider | ✅ 一次 |
-| 3 | AWS IAM | 建 `github-actions-ecr-role`（CI 用） | ✅ 一次 |
-| 4 | AWS IAM | 建 `ec2-ecr-pull-role`（EC2 用）並掛上 EC2 | ✅ 一次 |
-| 5 | EC2 | 安裝 aws CLI、設定 docker 認證 | ✅ 一次 |
-| 6 | GitHub | 設 repo Secrets（AWS Account ID、SSH key 等） | ✅ 一次 |
-| 7 | EC2 | 建 `deploy/.env`、首次拉鏡像 | ✅ 一次 |
-| 8 | 之後 | `git push main` 自動 build + deploy | 🔁 持續 |
+| #   | 在哪      | 做什麼                                      | 一次性？  |
+| --- | ------- | ---------------------------------------- | ----- |
+| 1   | AWS ECR | 建 `bakery`、`openit` repository           | ✅ 一次  |
+| 2   | AWS IAM | 建 GitHub OIDC identity provider          | ✅ 一次  |
+| 3   | AWS IAM | 建 `github-actions-ecr-role`（CI 用）        | ✅ 一次  |
+| 4   | AWS IAM | 建 `ec2-ecr-pull-role`（EC2 用）並掛上 EC2      | ✅ 一次  |
+| 5   | EC2     | 安裝 aws CLI、設定 docker 認證                  | ✅ 一次  |
+| 6   | GitHub  | 設 repo Secrets（AWS Account ID、SSH key 等） | ✅ 一次  |
+| 7   | EC2     | 建 `deploy/.env`、首次拉鏡像                    | ✅ 一次  |
+| 8   | 之後      | `git push main` 自動 build + deploy        | 🔁 持續 |
 
 ---
 
-## 前置作業：拿到你的關鍵資訊
+## 前置作業
 
 開個記事本記下這些值，之後會用到：
 
 ```bash
-# 在你本機（裝過 aws CLI 的話）
-aws sts get-caller-identity --query Account --output text   # → 你的 12 位帳號 ID
+# 在 EC2 主機（裝過 aws CLI 的話）
+aws sts get-caller-identity --query Account --output text   # →  12 位帳號 ID
 
-# 你的 region（例：ap-northeast-1）
+# 地區 / region（例：ap-northeast-1）
 # 從 EC2 console 右上角看，或者執行：
 aws configure get region
 ```
 
-| 變數 | 你的值 | 範例 |
-|------|--------|------|
-| AWS Account ID | _____________ | `123456789012` |
-| Region | _____________ | `ap-northeast-1` |
-| GitHub username | _____________ | `your-username` |
-| GitHub repo name | _____________ | `sole` |
-| EC2 公網 IP | _____________ | `1.2.3.4` |
-
-> 沒裝 aws CLI 也沒關係，這份指南會用 AWS Console 操作為主，CLI 只是備選。
+| 變數               | 範例               |
+| ---------------- | ---------------- |
+| AWS Account ID   | `123456789012`   |
+| Region           | `ap-northeast-1` |
+| GitHub username  | `your-username`  |
+| GitHub repo name | `倉庫名稱`           |
+| EC2 公網 IP        | `1.2.3.4`        |
 
 ---
 
@@ -63,29 +61,30 @@ aws configure get region
 
 ### Console 做法
 
-AWS Console → **ECR** → 切到你的 region → **Create repository**：
+AWS Console → **ECR** → 切到 region → **Create repository**：
+![[Pasted image 20260521115143.png]]
+![[Pasted image 20260521115108.png]]
 
-| 欄位 | 值 |
-|------|------|
-| Visibility | Private |
-| Repository name | `bakery` |
-| Tag immutability | Disabled（讓 `latest` 可以被覆蓋）|
-| Image scanning | Enable（免費，自動掃 CVE） |
-| Encryption | AES-256 |
+| 欄位               | 值                          |
+| ---------------- | -------------------------- |
+| Visibility       | Private                    |
+| Repository name  | `倉庫名稱`                     |
+| Tag immutability | Disabled（讓 `latest` 可以被覆蓋） |
+| Image scanning   | Enable（免費，自動掃 CVE）         |
+| Encryption       | AES-256                    |
 
-按 Create。再重複一次建 `openit`。
+按 Create。
 
 ### CLI 做法（可選）
 
 ```bash
-aws ecr create-repository --repository-name bakery --region ap-northeast-1 --image-scanning-configuration scanOnPush=true
-aws ecr create-repository --repository-name openit --region ap-northeast-1 --image-scanning-configuration scanOnPush=true
+aws ecr create-repository --repository-name 私有庫名稱 --region 地區 --image-scanning-configuration scanOnPush=true
 ```
 
 ### 驗證
 
 ```bash
-aws ecr describe-repositories --region ap-northeast-1
+aws ecr describe-repositories --region 地區
 ```
 
 應看到兩個 repo URL，格式：`<ACCOUNT_ID>.dkr.ecr.<REGION>.amazonaws.com/<repo>`
@@ -100,11 +99,12 @@ aws ecr describe-repositories --region ap-northeast-1
 
 AWS Console → **IAM** → **Identity providers** → **Add provider**：
 
-| 欄位 | 值 |
-|------|------|
-| Provider type | OpenID Connect |
-| Provider URL | `https://token.actions.githubusercontent.com` |
-| Audience | `sts.amazonaws.com` |
+| 欄位            | 值                                             |
+| ------------- | --------------------------------------------- |
+| Provider type | OpenID Connect                                |
+| Provider URL  | `https://token.actions.githubusercontent.com` |
+| Audience      | `sts.amazonaws.com`                           |
+|               |                                               |
 
 按 **Get thumbprint**，再 **Add provider**。
 
@@ -125,45 +125,59 @@ aws iam create-open-id-connect-provider \
 
 ### 3-1. 建 Role
 
-AWS Console → **IAM** → **Roles** → **Create role**：
+	AWS Console → **IAM** → **Roles** → **Create role**：
 
 - Trusted entity type: **Web identity**
 - Identity provider: 選剛建的 `token.actions.githubusercontent.com`
 - Audience: `sts.amazonaws.com`
-- GitHub organization: 你的 GitHub username
+- GitHub organization: 個人的 GitHub username
 - GitHub repository: `sole`（或你 repo 的名字）
 - GitHub branch: `main`
 
-按下一步。
+按下一步，跳過第二步，因為預設的設置限制過多
+所以我們創建後，手寫設定檔案 在 3-2 。
 
 ### 3-2. 附加 Permission Policy
 
-選 **Create inline policy**，切到 JSON 模式，貼上：
+選 **Create inline policy**
+![[Pasted image 20260521122540.png]]
+
+
+切到 JSON 模式
+![[Pasted image 20260521122604.png]]
+
+貼上：
 
 ```json
 {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "AllowECRPushPull",
-            "Effect": "Allow",
-            "Action": [
-                "ecr:GetAuthorizationToken",
-                "ecr:BatchCheckLayerAvailability",
-                "ecr:GetDownloadUrlForLayer",
-                "ecr:BatchGetImage",
-                "ecr:InitiateLayerUpload",
-                "ecr:UploadLayerPart",
-                "ecr:CompleteLayerUpload",
-                "ecr:PutImage"
-            ],
-            "Resource": "*"
-        }
-    ]
-}
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Effect": "Allow",
+			"Principal": {
+				"Federated": "arn:aws:iam::974066991761:oidc-provider/token.actions.githubusercontent.com"
+			},
+			"Action": "sts:AssumeRoleWithWebIdentity",
+			"Condition": {
+				"StringEquals": {
+					"token.actions.githubusercontent.com:aud": "sts.amazonaws.com"
+				},
+				"StringLike": {
+					"token.actions.githubusercontent.com:sub": [
+						"arn:aws:ecr:ap-east-2:974066991761:repository/{ERC儲存庫名稱}",
+						
+					]
+				}
+			}
+		}
+	]
+		}
 ```
 
-Policy name: `ecr-push-policy`，按 Create。
+
+"arn:aws:ecr:{地區}:{ 12 位帳號 ID }:repository/{ERC儲存庫名稱}",
+
+	Policy name: `ecr-push-policy`，按 Create。
 
 ### 3-3. Role 命名
 
@@ -171,9 +185,9 @@ Role name: **`github-actions-ecr-role`**（**這個名字必須跟 [deploy.yml](
 
 按 Create role。
 
-### 3-4. 修正 Trust Policy（**重要！**）
+### 3-4. 修正 Trust Policy
 
-進到剛建的 role → **Trust relationships** → **Edit trust policy**，確認 `Condition` 區塊長這樣（取代你的 `<github-username>` 跟 `<repo-name>`）：
+進到剛建的 role → **Trust relationships** → **Edit trust policy**，確認 `Condition` 區塊長這樣（取代 `<github-username>` 跟 `<repo-name>`）：
 
 ```json
 {
@@ -198,7 +212,7 @@ Role name: **`github-actions-ecr-role`**（**這個名字必須跟 [deploy.yml](
 }
 ```
 
-> ⚠️ `StringLike` + `repo:.../main` **這個條件絕對不能漏**。沒設的話，**任何 GitHub repo 都能 assume 這個 role**，等於 ECR 對全網開放（極大資安風險）。
+> ⚠️ `StringLike` + `repo:.../main` **這個條件絕對不能漏**。沒設的話，**任何 GitHub repo 都能 assume 這個 role**，等於 ECR 對全網開放（資安風險）。
 
 ---
 
@@ -216,7 +230,12 @@ IAM → Roles → Create role：
 
 ### 4-2. 把 Role 附加到 EC2 instance
 
-EC2 Console → 找你的 instance → **Actions** → **Security** → **Modify IAM role** → 選 `ec2-ecr-pull-role` → Update。
+EC2 Console → 找 EC2 實例 instance → **Actions** → **Security** → **Modify IAM role** → 選 `ec2-ecr-pull-role` → Update。
+![[Pasted image 20260521123750.png]]
+![[Pasted image 20260521123716.png]]
+
+![[Pasted image 20260521123732.png]]
+
 
 > 這步驟**不需要重啟 instance**，幾秒內就生效。
 
@@ -266,14 +285,16 @@ aws ecr get-login-password --region ap-northeast-1 \
 
 GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
 
+![[Pasted image 20260521123927.png]]
+![[Pasted image 20260521123959.png]]
 新增以下 secrets：
 
-| Secret 名稱 | 值 | 用途 |
-|------------|------|------|
-| `AWS_ACCOUNT_ID` | `123456789012`（你的 12 位帳號 ID） | 拼接 IAM role ARN 與 ECR URL |
-| `EC2_HOST` | EC2 公網 IP | SSH 連線目標 |
-| `EC2_USER` | `ec2-user` | SSH 使用者 |
-| `EC2_SSH_KEY` | **整個 .pem 檔內容** | SSH 認證 |
+| Secret 名稱        | 值                         | 用途                        |
+| ---------------- | ------------------------- | ------------------------- |
+| `AWS_ACCOUNT_ID` | `123456789012`（12 位帳號 ID） | 拼接 IAM role ARN 與 ECR URL |
+| `EC2_HOST`       | EC2 公網 IP                 | SSH 連線目標                  |
+| `EC2_USER`       | `ec2-user`                | SSH 使用者                   |
+| `EC2_SSH_KEY`    | **整個 .pem 檔內容**           | SSH 認證                    |
 
 ### `EC2_SSH_KEY` 要怎麼貼
 
@@ -330,16 +351,29 @@ image: 123456789012.dkr.ecr.ap-northeast-1.amazonaws.com/openit:latest
 
 ### 在 GitHub 觸發 workflow
 
-兩種方式：
+觸發條件全都定義在專案 `.github/workflows/` 目錄下 YAML 檔案的 **`on:`** 區塊中
+
+這裡有兩種兩種方式：
 - 推一個 commit 到 main：`git push origin main`
+  ```yml
+  on:
+
+  push:
+
+    branches: [main]
+
+  workflow_dispatch:
+  ```
 - 手動觸發：GitHub repo → Actions → 選 workflow → Run workflow
 
 ### 觀察進度
 
 GitHub repo → **Actions** tab，會看到正在跑的 workflow。點進去看每個 step 的 log。
 
+![[Pasted image 20260521124332.png]]
+
 成功的話會有兩個 job：
-- ✅ `build-and-push` (約 2~5 分鐘，cache 命中時更快)
+- ✅ `build-and-push` (約 2~5 分鐘)
 - ✅ `deploy` (約 30 秒~1 分鐘)
 
 ### 在 EC2 確認
