@@ -22,63 +22,21 @@
             }
           },
           {
-            "id": "832f2eb6505b427d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI_and_CG開源計畫/CS/編程語言/設計思想/編譯原理/類型系統、語言執行方式、範式.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "類型系統、語言執行方式、範式"
-            }
-          },
-          {
             "id": "953357f1feb20369",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI_and_CG開源計畫/DevOps/Docker/Docke 原理與使用.md",
+                "file": "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/屬性修飾符（Property Modifiers).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docke 原理與使用"
-            }
-          },
-          {
-            "id": "ea38a84c2f6f7663",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyberpunk-design-system.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Cyberpunk-design-system"
-            }
-          },
-          {
-            "id": "dd055c349015626f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI_and_CG開源計畫/教學與學習/最容易阻碍新手的疑难杂症.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "最容易阻碍新手的疑难杂症"
+              "title": "屬性修飾符（Property Modifiers)"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "滯銷推播",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -258,54 +216,55 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "dd055c349015626f",
+  "active": "953357f1feb20369",
   "lastOpenFiles": [
-    "未命名.base",
-    "個人專案/出入庫單建單 API.md",
-    "個人專案/出入庫API_PHP.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/抽象與接口.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/屬性修飾符（Property Modifiers).md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/構造方法與析構方法.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/重載（Overload）.md",
+    "AI_and_CG開源計畫/GameEngine/Game Engine 是什麼.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/甚麼物件導向(面向對象).md",
+    "AI_and_CG開源計畫/DevOps/Docker/Docke 原理與使用.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/什么是 Static 靜態類.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/面向對象設計原則/何謂面向對象之六大設計原則.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/面向對象設計原則",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/類與實例.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/生命週期.md",
+    "AI_and_CG開源計畫/CS/編程語言/設計思想/物件導向/物件導向四大特性.md",
+    "Pasted image 20260521123732.png",
+    "AI_and_CG開源計畫/AI/AI導論.md",
+    "遊戲、打基礎、作品集開發.md",
+    "Pasted image 20260509010250.png",
+    "AI_and_CG開源計畫/教學與學習/最容易阻碍新手的疑难杂症.md",
+    "AI_and_CG開源計畫/教學與學習",
+    "暫時保存/門市商品 操作手冊.md",
+    "暫時保存/未命名",
+    "AI_and_CG開源計畫/CS/計算機網路/網路通訊/HTTP/HTTPS概念与原理.md",
+    "AI_and_CG開源計畫/CS/計算機網路/計算機網路.md",
+    "AI_and_CG開源計畫/CS/軟件工程/系統架構/甚麼是系統架構.md",
+    "AI_and_CG開源計畫/CS/計算機科學導論/計算機前身.md",
+    "AI_and_CG開源計畫/CS/計算機科學導論/為什麼要學習計算機科學.md",
+    "AI_and_CG開源計畫/GameEngine/CG/CG導論.md",
+    "個人專案/個人接案者報價平台/後端/系統架構.md",
+    "AI_and_CG開源計畫/CS/軟件工程/系統架構",
+    "AI_and_CG開源計畫/CS/資料庫/實務作法/資料庫遷移至 utf8mb4 與權限設定筆記.md",
+    "AI_and_CG開源計畫/CS/資料庫/實務作法/匯入時是.md",
+    "AI_and_CG開源計畫/DevOps/Linux/linux-commands-notes.md",
+    "Pasted image 20260521115143.png",
     "Pasted image 20260521124332.png",
     "Pasted image 20260521123959.png",
     "Pasted image 20260521123927.png",
     "Pasted image 20260521123750.png",
-    "Pasted image 20260521123732.png",
     "Pasted image 20260521123716.png",
     "Pasted image 20260521122604.png",
     "Pasted image 20260521122540.png",
-    "Pasted image 20260521122531.png",
-    "Pasted image 20260521115143.png",
-    "AI_and_CG開源計畫/CS/軟件工程/系統架構/甚麼是系統架構.md",
-    "AI_and_CG開源計畫/CS/軟件工程/系統架構",
-    "AI_and_CG開源計畫/CS/資料庫/實務作法/資料庫遷移至 utf8mb4 與權限設定筆記.md",
-    "AI_and_CG開源計畫/CS/資料庫/實務作法/更新變數編碼前的準備.md",
-    "AI_and_CG開源計畫/CS/資料庫/實務作法/匯入時是.md",
     "AI_and_CG開源計畫/CS/資料庫/實務作法",
-    "AI_and_CG開源計畫/CS/計算機網路/網路通訊/HTTP/HTTPS概念与原理.md",
     "AI_and_CG開源計畫/CS/計算機網路/網路通訊/HTTP",
     "AI_and_CG開源計畫/CS/計算機網路/網路通訊",
-    "AI_and_CG開源計畫/CS/未命名.md",
-    "個人專案/LINE API.md",
-    "AI_and_CG開源計畫/教學與學習/最容易阻碍新手的疑难杂症.md",
-    "AI_and_CG開源計畫/教學與學習",
-    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/完整的 http 請求_By_REST 原則.md",
-    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/RESTful API 是甚麼.md",
-    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/API 是什麼.md",
-    "AI_and_CG開源計畫/DevOps/AWS/healthcheck-guide 1.md",
-    "AI_and_CG開源計畫/DevOps/AWS/IAM Identity Provider for GitHub OIDC 設定許可.md",
-    "AI_and_CG開源計畫/DevOps/AWS/healthcheck-guide.md",
-    "AI_and_CG開源計畫/DevOps/ci-cd-setup-guide.md",
-    "AI_and_CG開源計畫/DevOps/Linux/linux-commands-notes.md",
-    "AI_and_CG開源計畫/DevOps/Docker/docker-deployment-notes.md",
-    "AI_and_CG開源計畫/DevOps/Docker/Docker 網路的運作.md",
-    "AI_and_CG開源計畫/DevOps/Docker/Docke 原理與使用.md",
-    "AI_and_CG開源計畫/DevOps/Docker/容器化 www-data 權限管理最佳實務指南.md",
-    "AI_and_CG開源計畫/CS/軟件工程/通用概念/API/WEB API 是甚麼.md",
-    "solo 系統表分析.md",
-    "AI_and_CG開源計畫/DevOps/AWS/AWS EC2 (Linux) 上安裝 LAMP（Linux, Apache, MySQL_MariaDB, PHP）.md",
+    "未命名",
+    "未命名.base",
     "AI_and_CG開源計畫/DevOps/Linux",
-    "AI_and_CG開源計畫/CS/計算機網路",
     "未命名 1.canvas",
-    "未命名 1.base",
-    "未命名.canvas",
-    "AI_and_CG開源計畫/DevOps/Docker"
+    "未命名.canvas"
   ]
 }
